@@ -2,7 +2,7 @@ export class Heap<T = number> {
   protected _heap: T[]
   private _cmp: Heap.ComparisonFunctionType<T>
 
-  constructor(seq: T[], cmp: Heap.ComparisonFunctionType<T> = (a, b) => a <= b) {
+  constructor(seq: T[] = [], cmp: Heap.ComparisonFunctionType<T> = (a, b) => a <= b) {
     this._heap = seq
     this._cmp = cmp
     this._build()

@@ -1,0 +1,9 @@
+{
+	"eslint.enable": true,
+	"eslint.autoFixOnSave": true,
+	"eslint.filetypes": [
+		"javascript",
+		"typescript"
+	],
+	"eslint.packageManager": "yarn"
+}
